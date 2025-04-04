@@ -36,6 +36,7 @@ Use it as a reference, revisit it often, and most importantly, adapt it to fit y
   - [Key Principles of Spacing](#key-principles-of-spacing)
 - [Color](#color)
   - [Key Principles of Color](#key-principles-of-color)
+- [Designing for CMS-Powdered Websites](#designing-for-cms-powdered-websites)
 - [Things Not to Do](#things-not-to-do)
 - [Tools and Resources](#tools-and-resources)
   - [Design Tools](#design-tools)
