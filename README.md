@@ -296,13 +296,28 @@ Color sets the mood, guides attention, and strengthens brand identity — but it
 
 ## **Things Not to Do**
 
+Even with the best intentions, there are a few practices that can hurt user experience if not handled carefully. Here’s what to watch out for:
+
 ### Scrolljacking
 
-Scrolljacking is a practice that subverts control from the user. By insisting that users are not capable of managing their browser, friction and annoyance can be created in an otherwise delightful experience. We applaud healthy uses of sticky content but advise against parallel scrolljacking (where the user scrolls vertically and content snaps in the same axis) however there are some pleasant uses of perpendicular scrolljacking ([example](https://rivian.com/)) where content is laid out on the cross-axis. Responsiveness is key here - if the content doesn't 'keep up' the the velocity the user is scrolling with, the page feels slow and non-performant.
+Scrolljacking takes control away from the user — and usually not in a good way. By overriding a user's natural scrolling behavior, you introduce friction and frustration into an otherwise smooth experience.
+
+We encourage healthy uses of sticky content, but advise against parallel scrolljacking (where vertical scrolling snaps or hijacks content on the same vertical axis). However, there are more pleasant experiences with perpendicular scrolljacking ([example](https://rivian.com/): horizontal scrolling triggered by vertical movement) when done thoughtfully.
+
+**Responsiveness is key:**
+If content doesn’t match the user’s scroll velocity, the page can feel slow, clunky, and non-performant.
 
 ### Opacity as Indicators
 
-Be intentional when choosing colors for disabled elements. When a button is tinted grey, it indicates disabled and users may not expect it to be interactive. Where this can unexpectedly come into play is when elements have a low opacity which _effectively_ makes them appear more gray. This can cause confusion for users as it reads disabled but may be designed to be non-primary in its role. Remember: elements appear activated when contrast increases, not decreases.
+Be intentional when choosing colors and treatments for disabled elements. When a button is tinted gray, users generally expect it to be inactive. Problems arise when low-opacity elements unintentionally look disabled even though they are still interactive.
+
+This often happens when reducing opacity to make something look "less important" — but visually, it reads as disabled.
+
+**Quick rule of thumb:**
+- Elements feel **active** when contrast **increases**.
+- Elements feel **inactive** when contrast **decreases**.
+
+If users can’t tell whether something is clickable, they hesitate — or worse, they miss it entirely.
 
 ## Tools and Resources
 
