@@ -36,6 +36,7 @@ Use it as a reference, revisit it often, and most importantly, adapt it to fit y
   - [Key Principles of Spacing](#key-principles-of-spacing)
 - [Color](#color)
   - [Key Principles of Color](#key-principles-of-color)
+- [Things Not to Do](#things-not-to-do)
 - [Tools and Resources](#tools-and-resources)
   - [Design Tools](#design-tools)
   - [Further Reading and Inspiration](#further-reading-and-inspiration)
@@ -292,6 +293,16 @@ Color sets the mood, guides attention, and strengthens brand identity — but it
 
 - **Tip:**  
   Design for real use, not just the perfect moodboard. Your colors need to look good in buttons, backgrounds, error states — everywhere.
+
+## **Things Not to Do**
+
+### Scrolljacking
+
+Scrolljacking is a practice that subverts control from the user. By insisting that users are not capable of managing their browser, friction and annoyance can be created in an otherwise delightful experience. We applaud healthy uses of sticky content but advise against parallel scrolljacking (where the user scrolls vertically and content snaps in the same axis) however there are some pleasant uses of perpendicular scrolljacking ([example](https://rivian.com/)) where content is laid out on the cross-axis. Responsiveness is key here - if the content doesn't 'keep up' the the velocity the user is scrolling with, the page feels slow and non-performant.
+
+### Opacity as Indicators
+
+Be intentional when choosing colors for disabled elements. When a button is tinted grey, it indicates disabled and users may not expect it to be interactive. Where this can unexpectedly come into play is when elements have a low opacity which _effectively_ makes them appear more gray. This can cause confusion for users as it reads disabled but may be designed to be non-primary in its role. Remember: elements appear activated when contrast increases, not decreases.
 
 ## Tools and Resources
 
