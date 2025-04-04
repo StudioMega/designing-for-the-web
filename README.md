@@ -294,7 +294,26 @@ Color sets the mood, guides attention, and strengthens brand identity — but it
 - **Tip:**  
   Design for real use, not just the perfect moodboard. Your colors need to look good in buttons, backgrounds, error states — everywhere.
 
-## **Things Not to Do**
+## Designing for CMS-Powdered Websites
+
+CMS-powered sites are dynamic by nature. Your design needs to be just as flexible — ready to adapt without losing its integrity.
+
+Modern websites are often built on a CMS (Content Management System), which means content isn’t hard-coded onto a page — it’s made up of reusable components that can be rearranged by editors.
+
+When designing for a CMS-powdered site, think about layouts as flexible systems — not rigid page templates.
+
+**Key Principles:**
+
+- **Design for Modularity:**
+  Treat each section or block as a standalone component. Assume it might appear before or after other components in different contexts.
+- **Plan for Reordering:**
+  Make sure the design doesn’t fall apart if someone moves components around. The layout and style should stay strong and coherent, even when content order changes.
+- **Define Clear Relationships:**
+  Use consistent spacing, typography, and visual cues to show how components relate to each other — without relying on fixed positioning or static page designs.
+- **Flexibility Without Losing Intent:**
+  Good modular design maintains the original design intent — visual rhythm, hierarchy, and storytelling — even when the order of content shifts.
+
+## Things Not to Do
 
 Even with the best intentions, there are a few practices that can hurt user experience if not handled carefully. Here’s what to watch out for:
 
